@@ -7,7 +7,7 @@ import com.solace.sleep.data.repository.ProfileRepository
 import com.solace.sleep.data.repository.SleepSessionRepository
 import com.solace.sleep.domain.model.Profile
 import com.solace.sleep.domain.model.SleepSession
-import com.solace.sleep.util.TimeExtensions.toLocalDate
+import com.solace.sleep.util.toLocalDate
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow

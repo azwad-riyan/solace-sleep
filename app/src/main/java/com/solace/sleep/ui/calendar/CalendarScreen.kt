@@ -48,7 +48,7 @@ import com.solace.sleep.domain.model.SleepSession
 import com.solace.sleep.ui.correction.CorrectionSheet
 import com.solace.sleep.ui.theme.sleepDurationColor
 import com.solace.sleep.util.DateFormatter
-import com.solace.sleep.util.TimeExtensions.toLocalDate
+import com.solace.sleep.util.toLocalDate
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.YearMonth

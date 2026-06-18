@@ -5,7 +5,7 @@ import com.solace.sleep.domain.model.InsightsData
 import com.solace.sleep.domain.model.QualityPoint
 import com.solace.sleep.domain.model.SessionType
 import com.solace.sleep.domain.model.SleepSession
-import com.solace.sleep.util.TimeExtensions.toLocalDate
+import com.solace.sleep.util.toLocalDate
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.ZoneId

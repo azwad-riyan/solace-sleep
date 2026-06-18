@@ -18,7 +18,7 @@ import com.solace.sleep.data.local.entity.SleepTagEntity
         SessionTagCrossRef::class
     ],
     version = 1,
-    exportSchema = true
+    exportSchema = false
 )
 abstract class SolaceDatabase : RoomDatabase() {
     abstract fun profileDao(): ProfileDao
