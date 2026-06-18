@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="solace_purple_primary">#7C5CBF</color>
+    <color name="solace_purple_secondary">#9C7FD4</color>
+    <color name="solace_deep_navy">#0D1B2A</color>
+    <color name="solace_midnight">#1A1A2E</color>
+    <color name="solace_twilight">#16213E</color>
+
+    <!-- Sleep Duration Colors -->
+    <color name="sleep_excellent">#4CAF50</color>
+    <color name="sleep_good">#009688</color>
+    <color name="sleep_fair">#FFC107</color>
+    <color name="sleep_poor">#F44336</color>
+    <color name="sleep_no_data">#757575</color>
+
+    <!-- Material 3 seed -->
+    <color name="md_theme_primary">#7C5CBF</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#E9DDFF</color>
+    <color name="md_theme_on_primary_container">#230058</color>
+    <color name="md_theme_secondary">#635B70</color>
+    <color name="md_theme_on_secondary">#FFFFFF</color>
+    <color name="md_theme_background">#FFFBFE</color>
+    <color name="md_theme_surface">#FFFBFE</color>
+
+    <!-- Launcher colors -->
+    <color name="ic_launcher_background">#1A1A2E</color>
+</resources>

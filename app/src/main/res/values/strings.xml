@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Solace</string>
+    <string name="widget_label">Sleep Summary</string>
+
+    <!-- Navigation -->
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to Solace</string>
+    <string name="onboarding_welcome_subtitle">Your personal sleep companion. Track, understand, and improve your sleep effortlessly.</string>
+    <string name="onboarding_profile_title">Create Your Profile</string>
+    <string name="onboarding_profile_subtitle">Set up your personal sleep profile to get started.</string>
+    <string name="onboarding_profile_name_hint">Your name</string>
+    <string name="onboarding_permissions_title">Allow Sensors</string>
+    <string name="onboarding_permissions_subtitle">Solace uses your phone\'s sensors to automatically detect when you fall asleep and wake up.</string>
+    <string name="onboarding_detection_title">Detection Window</string>
+    <string name="onboarding_detection_subtitle">Set the time window when Solace should watch for sleep. Typically your usual bedtime range.</string>
+    <string name="onboarding_done_title">All Set!</string>
+    <string name="onboarding_done_subtitle">Solace will now track your sleep automatically. Sweet dreams!</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_skip">Skip</string>
+
+    <!-- Permissions -->
+    <string name="permission_body_sensors_title">Body Sensors</string>
+    <string name="permission_body_sensors_rationale">Solace uses the accelerometer to detect movement patterns and determine when you\'re asleep. This sensor data never leaves your device.</string>
+    <string name="permission_activity_recognition_title">Activity Recognition</string>
+    <string name="permission_activity_recognition_rationale">This permission allows Solace to recognize when you\'re stationary for extended periods, a key indicator of sleep.</string>
+    <string name="permission_notifications_title">Notifications</string>
+    <string name="permission_notifications_rationale">Solace sends gentle notifications to confirm sleep sessions and remind you to review your sleep data.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_denied_message">Some features may not work correctly without this permission.</string>
+
+    <!-- Calendar Screen -->
+    <string name="calendar_title">Sleep Calendar</string>
+    <string name="calendar_no_data">No sleep data</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_add_manual">Add Sleep Manually</string>
+
+    <!-- Day Detail -->
+    <string name="day_detail_title">Sleep Detail</string>
+    <string name="day_detail_bedtime">Bedtime</string>
+    <string name="day_detail_wake_time">Wake Time</string>
+    <string name="day_detail_duration">Duration</string>
+    <string name="day_detail_quality">Quality</string>
+    <string name="day_detail_tags">Tags</string>
+    <string name="day_detail_notes">Notes</string>
+    <string name="day_detail_edit">Edit</string>
+    <string name="day_detail_delete">Delete</string>
+    <string name="day_detail_type_night">Night Sleep</string>
+    <string name="day_detail_type_nap">Nap</string>
+    <string name="day_detail_source_auto">Auto-detected</string>
+    <string name="day_detail_source_manual">Manual entry</string>
+    <string name="day_detail_source_corrected">Auto-corrected</string>
+    <string name="day_detail_confidence">Confidence: %1$d%%</string>
+    <string name="day_detail_interruptions">Interruptions: %1$d</string>
+
+    <!-- Correction Sheet -->
+    <string name="correction_title">Confirm Your Sleep</string>
+    <string name="correction_subtitle">We detected you slept last night. Does this look right?</string>
+    <string name="correction_looks_right">Looks Right</string>
+    <string name="correction_fix_it">Fix It</string>
+    <string name="correction_bedtime_label">Bedtime</string>
+    <string name="correction_wake_label">Wake Time</string>
+    <string name="correction_quality_label">How did you sleep?</string>
+    <string name="correction_quality_terrible">Terrible</string>
+    <string name="correction_quality_poor">Poor</string>
+    <string name="correction_quality_okay">Okay</string>
+    <string name="correction_quality_good">Good</string>
+    <string name="correction_quality_excellent">Excellent</string>
+    <string name="correction_tags_label">Tags</string>
+    <string name="correction_notes_hint">Add notes about your sleep…</string>
+    <string name="correction_save">Save</string>
+    <string name="correction_dismiss">Dismiss</string>
+
+    <!-- Insights Screen -->
+    <string name="insights_title">Sleep Insights</string>
+    <string name="insights_tab_weekly">Weekly</string>
+    <string name="insights_tab_monthly">Monthly</string>
+    <string name="insights_tab_all_time">All Time</string>
+    <string name="insights_avg_duration">Avg Duration</string>
+    <string name="insights_sleep_goal">Sleep Goal</string>
+    <string name="insights_sleep_debt">Sleep Debt</string>
+    <string name="insights_sleep_debt_value">%1$dh %2$dm owed</string>
+    <string name="insights_streak_label">Current Streak</string>
+    <string name="insights_streak_days">%1$d days</string>
+    <string name="insights_best_streak">Best Streak</string>
+    <string name="insights_weekday_vs_weekend">Weekday vs Weekend</string>
+    <string name="insights_quality_trend">Quality Trend</string>
+    <string name="insights_no_data">Not enough data yet. Keep tracking!</string>
+    <string name="insights_hours_format">%1$dh %2$dm</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profiles</string>
+    <string name="profile_add">Add Profile</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_delete">Delete Profile</string>
+    <string name="profile_switch">Switch to this profile</string>
+    <string name="profile_active">Active</string>
+    <string name="profile_name_hint">Profile name</string>
+    <string name="profile_emoji_hint">Choose avatar emoji</string>
+    <string name="profile_sleep_goal_label">Sleep Goal</string>
+    <string name="profile_sleep_goal_hint">Hours of sleep per night</string>
+    <string name="profile_detection_sensitivity">Detection Sensitivity</string>
+    <string name="profile_sensitivity_low">Low</string>
+    <string name="profile_sensitivity_medium">Medium</string>
+    <string name="profile_sensitivity_high">High</string>
+    <string name="profile_save">Save Profile</string>
+    <string name="profile_cancel">Cancel</string>
+    <string name="profile_delete_confirm_title">Delete Profile?</string>
+    <string name="profile_delete_confirm_message">This will permanently delete %1$s and all their sleep data. This cannot be undone.</string>
+    <string name="profile_delete_confirm_yes">Delete</string>
+    <string name="profile_delete_confirm_no">Cancel</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_detection_section">Sleep Detection</string>
+    <string name="settings_detection_window_start">Window Start</string>
+    <string name="settings_detection_window_end">Window End</string>
+    <string name="settings_detection_sensitivity">Sensitivity</string>
+    <string name="settings_sleep_goal_section">Sleep Goal</string>
+    <string name="settings_sleep_goal">Target Sleep Duration</string>
+    <string name="settings_sync_section">Sync &amp; Backup</string>
+    <string name="settings_sync_google_drive">Google Drive Sync</string>
+    <string name="settings_sync_enabled">Sync enabled</string>
+    <string name="settings_sync_disabled">Sync disabled</string>
+    <string name="settings_sync_last_synced">Last synced: %1$s</string>
+    <string name="settings_sync_now">Sync Now</string>
+    <string name="settings_backup_section">Backup</string>
+    <string name="settings_backup_now">Backup Now</string>
+    <string name="settings_restore">Restore from Backup</string>
+    <string name="settings_export_section">Export Data</string>
+    <string name="settings_export_data">Export Sleep Data</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_open_source">Open Source Licenses</string>
+
+    <!-- Export Screen -->
+    <string name="export_title">Export Data</string>
+    <string name="export_date_range">Date Range</string>
+    <string name="export_from">From</string>
+    <string name="export_to">To</string>
+    <string name="export_format">Format</string>
+    <string name="export_format_csv">CSV (Spreadsheet)</string>
+    <string name="export_format_pdf">PDF Report</string>
+    <string name="export_button">Export</string>
+    <string name="export_success">Export complete!</string>
+    <string name="export_error">Export failed. Please try again.</string>
+    <string name="export_share">Share</string>
+    <string name="export_save">Save to Downloads</string>
+
+    <!-- Notification Channels -->
+    <string name="notification_channel_detection_id">sleep_detection</string>
+    <string name="notification_channel_detection_name">Sleep Detection</string>
+    <string name="notification_channel_detection_description">Shows when Solace is actively monitoring your sleep</string>
+    <string name="notification_channel_correction_id">sleep_correction</string>
+    <string name="notification_channel_correction_name">Sleep Review</string>
+    <string name="notification_channel_correction_description">Reminds you to review and confirm your sleep sessions</string>
+    <string name="notification_channel_sync_id">sync_backup</string>
+    <string name="notification_channel_sync_name">Sync &amp; Backup</string>
+    <string name="notification_channel_sync_description">Status updates for Google Drive sync and backups</string>
+
+    <!-- Notifications -->
+    <string name="notification_detection_title">Monitoring Sleep</string>
+    <string name="notification_detection_text">Solace is watching for sleep patterns</string>
+    <string name="notification_correction_title">Review Your Sleep</string>
+    <string name="notification_correction_text">Tap to confirm last night\'s sleep session</string>
+    <string name="notification_sync_title">Syncing Data</string>
+    <string name="notification_sync_text">Backing up your sleep data to Google Drive</string>
+
+    <!-- Common -->
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_save">Save</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_done">Done</string>
+    <string name="common_loading">Loading…</string>
+    <string name="common_error">Something went wrong</string>
+    <string name="common_retry">Retry</string>
+    <string name="common_hours_minutes">%1$dh %2$dm</string>
+    <string name="common_minutes">%1$d min</string>
+
+    <!-- Widget -->
+    <string name="widget_last_night">Last Night</string>
+    <string name="widget_no_data">No sleep recorded</string>
+    <string name="widget_bedtime">Bedtime</string>
+    <string name="widget_wake_time">Wake Time</string>
+    <string name="widget_quality">Quality</string>
+
+    <!-- Default Tags -->
+    <string name="tag_stressed">Stressed</string>
+    <string name="tag_caffeine">Caffeine</string>
+    <string name="tag_exercise">Exercise</string>
+    <string name="tag_alcohol">Alcohol</string>
+    <string name="tag_late_meal">Late Meal</string>
+    <string name="tag_screen_time">Screen Time</string>
+    <string name="tag_good_routine">Good Routine</string>
+    <string name="tag_travel">Travel</string>
+</resources>
